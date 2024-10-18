@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body{
+    max-width: 360px;
+    margin: 0 auto;
+}
+.wrapper{
+    height: 650px;
+    background: #000;
+    margin: 15px;
+    border-radius: 35px;
+    padding: 15px;
+    overflow: hidden;
+    background-image: url(Fireboy-DML-Adedamola-Album-EP.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.name{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 450px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.title{
+    font-family: "Modak", system-ui;
+    color: rgb(215, 148, 3);
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+audio::-webkit-media-controls-panel{
+    background: rgb(162, 111, 0);
+}
+audio::-webkit-media-controls-current-time-display{
+    color: white;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: white;
+}
